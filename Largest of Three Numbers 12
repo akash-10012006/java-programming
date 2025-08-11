@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class largest {
+
+    public static void main(String[] args) {
+         Scanner lar=new Scanner(System.in);
+             int a=lar.nextInt();
+             int b=lar.nextInt();
+             int c=lar.nextInt();
+         if(a>b && a>c)
+        {
+            System.out.println("a is largest then b and c");
+        }
+        else if(a<b && b>c)
+        {
+            System.out.println("b is largest then a and c ");
+        }
+        else if(a<b && b<c)
+        {
+            System.out.println("c is largest then a and b");
+        }
+    }
+}
